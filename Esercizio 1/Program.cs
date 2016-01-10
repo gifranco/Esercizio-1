@@ -14,6 +14,11 @@ namespace Esercizio_1
             Console.ReadKey();
         }
 
+        static public void Inizia()
+        {
+            Console.Clear();
+        }
+
         static public void Alt()
         {
             Console.Clear();
@@ -22,6 +27,7 @@ namespace Esercizio_1
         }
 
     }
+
     class Program
     {
         static void Main(string[] args)
@@ -32,9 +38,5 @@ namespace Esercizio_1
             Stop.Alt();
         }
 
-        public void es1()
-        {
-            int 
-        }
     }
 }
