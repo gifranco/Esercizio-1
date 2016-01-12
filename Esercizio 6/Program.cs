@@ -3,42 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ClassLibrary;
 
 namespace Esercizio_6
 {
-    class Utility
-    {
-        static public void Ferma()
-        {
-            Console.Write("\nPremi un tasto per continuare ...");
-            Console.ReadKey();
-        }
-
-        static public void Alt()
-        {
-            Console.Clear();
-            Console.Write("\nPremi un tasto per continuare ...");
-            Console.ReadKey();
-        }
-
-        static public void Inizia()
-        {
-            Console.Clear();
-            Console.WriteLine();
-        }
-    }
-
-    class Program
+     class Program
     {
         [Flags]
         enum RenderType
         {
-            None = 0x0,
-            DataUri = 0x1,
-            GZip = 0x2,
+            None        = 0x0,
+            DataUri     = 0x1,
+            GZip        = 0x2,
             ContentPage = 0x4,
-            ViewPage = 0x8,
-            HomePage = 0x10 // Next two values could be 0x20, 0x40
+            ViewPage    = 0x8,
+            HomePage    = 0x10 // Next two values could be 0x20, 0x40
         }
 
         static void Main()

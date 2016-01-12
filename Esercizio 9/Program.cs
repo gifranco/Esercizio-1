@@ -5,18 +5,15 @@ using System.Text;
 using System.Threading.Tasks;
 using ClassLibrary;
 
-namespace Esercizio_1
+namespace Esercizio_9
 {
-
     class Program
     {
         static void Main(string[] args)
         {
-            Console.Clear();
-            Console.WriteLine("Buongiorno a tutti");
-            Utility.Ferma();
-            Utility.Alt();
-        }
+            Utility.Inizia();
 
+            Utility.Ferma();
+        }
     }
 }
